@@ -14,7 +14,7 @@ function setup(){
   waterfall = createSprite(300,300);
   waterfall.addImage("waterfall",waterfallImg);
   waterfall.velocityY = 5;
-  waterfall.scale = 4;
+  waterfall.scale = 5.5;
   
   padsGroup = new Group();
   
@@ -73,7 +73,7 @@ function draw(){
     frog.velocityY = frog.velocityY + 0.8
     
     if(waterfall.y > 400){
-      waterfall.y = 300
+      waterfall.y = 200
     }
  
     for (var i = 0; i < padsGroup.length; i++) {
